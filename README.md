@@ -54,7 +54,7 @@ Next, navigate to the _Server Script_ section in your Frappe app and create a ne
 
 1. **Name**: `create_ticket`
 2. **Script Type**: `DocType Event`
-3. **Reference Document**: `Contact`
+3. **Reference Document**: `Custom Ticket`
 4. **DocType Event**: `AfterSave`
 
 Finally, copy the content from `createticket.py` and paste it into the Script section. Afterward, click the _Save_ button.
